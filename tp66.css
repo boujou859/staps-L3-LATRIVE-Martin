@@ -1,0 +1,49 @@
+/* Style général */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #ff6b6b, #a83232);
+    color: white;
+}
+
+/* Titre */
+h1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    margin: 0;
+    background: rgba(0,0,0,0.2);
+    letter-spacing: 2px;
+}
+
+/* Conteneur des iframes */
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Iframes */
+iframe {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    transition: transform 0.3s ease;
+}
+
+/* Animation au survol */
+iframe:hover {
+    transform: scale(1.02);
+}
+
+/* Tailles spécifiques */
+iframe[name="f1"] {
+    width: 30%;
+    background: white;
+}
+
+iframe[name="f2"] {
+    width: 60%;
+    background: white;
+}
