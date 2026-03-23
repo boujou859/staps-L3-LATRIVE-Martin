@@ -1,10 +1,10 @@
 /* Style général */
 body {
-    background: linear-gradient(135deg, #ff6b6b, #a83232);
+    background: linear-gradient(135deg, #ff6b6b, #c0392b);
     font-family: 'Segoe UI', Arial, sans-serif;
+    color: #ffffff;
     margin: 0;
     padding: 30px;
-    color: #ffffff;
 }
 
 /* Titre principal */
@@ -15,37 +15,52 @@ h1 {
     letter-spacing: 2px;
 }
 
-/* Sous-titres */
-h2 {
-    font-size: 28px;
-    margin-top: 30px;
-    text-decoration: underline;
-}
-
-/* Paragraphes */
+/* Texte */
 p {
+    max-width: 800px;
+    margin: 0 auto 30px auto;
     font-size: 18px;
-    line-height: 1.7;
-    margin-top: 10px;
-    padding: 15px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Tableau */
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: rgba(255,255,255,0.1);
     border-radius: 10px;
-    background: rgba(255,255,255,0.1);
+    overflow: hidden;
 }
 
-/* Style spécial pour la classe c2 */
-.c2 {
-    border-left: 5px solid #00ffcc;
+/* Cellules */
+td {
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid white;
 }
 
-/* Bouton lien */
+/* Images */
+img {
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+/* Animation image */
+img:hover {
+    transform: scale(1.1);
+}
+
+/* Bouton retour */
 a {
     display: block;
-    width: 220px;
+    width: 200px;
     margin: 40px auto;
     text-align: center;
     padding: 12px;
     background-color: white;
-    color: #a83232;
+    color: #c0392b;
     text-decoration: none;
     border-radius: 8px;
     font-weight: bold;

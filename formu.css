@@ -1,0 +1,78 @@
+/* Fond général */
+body {
+    background: linear-gradient(135deg, #ff6b6b, #c0392b);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Titre */
+h1 {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+/* Tableau (formulaire) */
+table {
+    margin: auto;
+    background: rgba(255,255,255,0.1);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+/* Cellules */
+td {
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Champs input, select, textarea */
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+/* Effet focus */
+input:focus, select:focus, textarea:focus {
+    box-shadow: 0 0 5px #ffffff;
+}
+
+/* Boutons */
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: white;
+    color: #c0392b;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Animation boutons */
+button:hover {
+    background-color: #ff3b3b;
+    color: white;
+    transform: scale(1.1);
+}
+
+/* Lien retour */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
