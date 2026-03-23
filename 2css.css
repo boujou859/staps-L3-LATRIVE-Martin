@@ -1,0 +1,42 @@
+/* Couleur de fond rouge clair */
+body {
+    background-color: #ff6b6b;
+    font-family: Arial, sans-serif;
+    color: #ffffff; /* texte visible */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Titre principal en gros */
+h1 {
+    font-size: 48px;
+    text-align: center;
+    font-weight: bold;
+    color: darkblue;
+}
+
+/* Sous-titres soulignés */
+h2 {
+    text-decoration: underline;
+    font-size: 28px;
+    color: lightblue;
+}
+
+/* Liens (boutons) */
+a {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px 0;
+    background-color: #ffffff;
+    color: #ff6b6b;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+/* Animation des boutons */
+a:hover {
+    background-color: #ff3b3b;
+    color: white;
+    transform: scale(1.1);
+}
